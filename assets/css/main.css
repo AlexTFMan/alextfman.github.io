@@ -1985,7 +1985,7 @@ p {color: #000;}
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #191413;
+			background-color: #131519;
 		}
 
 		input[type="button"]:active,
@@ -1993,7 +1993,7 @@ p {color: #000;}
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+			background-color: #191413;
 		}
 
 /* Item */
