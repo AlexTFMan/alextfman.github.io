@@ -73,6 +73,14 @@ input, select, textarea {
 }
 
 /* Basic */
+li.liTest {
+	color: #000;
+	 list-style-type: none;
+	 margin: 0;
+  padding: 0;
+
+}
+
 
 	html {
 		box-sizing: border-box;
@@ -83,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #202427;
+		background: #000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -1888,7 +1896,7 @@ p {color: #000;}
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			box-shadow: 0 0 2px 1px #191413;
+			box-shadow: 0 0 2px 1px #34201f;
 			background: #fff;
 		}
 
@@ -1967,7 +1975,7 @@ p {color: #000;}
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #191413;
+		background-color: #34201f;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1993,7 +2001,7 @@ p {color: #000;}
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #191413;
+			background-color: #34201f;
 		}
 
 /* Item */
@@ -2082,7 +2090,7 @@ p {color: #000;}
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			background: #191413;
+			background: #34201f;
 		}
 
 		#header .bottom {
