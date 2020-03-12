@@ -28,6 +28,9 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+h3{
+	color: #333;
+}
 
 body {
 	line-height: 1;
@@ -117,10 +120,22 @@ li.liTest {
 		line-height: 1.75em;
 		color: #888;
 	}
-
+dl.ci{
+color: #333;
+}
+dd.fs{
+	
+	padding: 0 3em 1em 3em;
+}
+	li.eapli {
+		color: #333;
+		list-style-type: none;
+		margin: 0;
+	 padding: 0;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #ffffff;
+		color: #333;
 		line-height: 1.5em;
 	}
 
